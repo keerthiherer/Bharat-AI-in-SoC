@@ -37,6 +37,9 @@ This project is a voice assistant application designed to understand and respond
    ```bash
    pip install -r requirements.txt
    ```
+5. Download the LLaMA model manually:
+   The LLaMA model("Llama-3.2-1B-Instruct-Q4_K_M.gguf
+") is large and cannot be downloaded automatically with `git clone`. Please download it manually from the official source and place it in the appropriate directory.
 
 ## Usage
 Run the application:
@@ -72,3 +75,20 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - [Vosk](https://alphacephei.com/vosk/) for speech recognition.
 - [Llama.cpp](https://github.com/ggerganov/llama.cpp) for the language model.
 - [Piper](https://github.com/rhasspy/piper) for text-to-speech.
+
+## Available Intents
+The following intents are supported by the assistant:
+- Time now
+- Date today
+- Day today
+- Uptime
+- CPU
+- RAM
+- Disk
+- Battery
+- Temperature
+- Network
+- IP
+- Hostname
+- Exit
+- Assistant name

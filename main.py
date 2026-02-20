@@ -101,7 +101,8 @@ while True:
     # 1. Block until wake word detected (Fast Mode)
     if listen_for_wake():
         speak("हाँ बताइए")  # [ENABLED] Acknowledge wake word
-        print("⚡ Listening for command...")
+        print("⚡ Listening for query ......")
+        print("ask me anything about system info such as time, date, cpu, ram, disk, battery, temperature, network, ip, hostname or general knowledge questions about history, Indian history, politics, world GK and India GK")
         
         # 2. Listen for Command (Standard Mode with Timeout)
         # We still use the standard listen_loop for command capture as it handles full sentences better
