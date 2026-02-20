@@ -92,3 +92,7 @@ The following intents are supported by the assistant:
 - Hostname
 - Exit
 - Assistant name
+
+
+- [YouTube Video](https://youtu.be/9GAmdWQPYAs?si=LrKyObqjtNqTr6r1)
+- [Google Docs](https://docs.google.com/document/d/1eTeMM_WQV1RSw3g_AJOOADFR9tMXSNfenoZrmbFVsgM/edit?tab=t.0#heading=h.21j944wawsvl)
