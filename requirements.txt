@@ -1,0 +1,9 @@
+numpy
+vosk
+llama-cpp-python
+pyaudio
+piper-tts
+scikit-learn
+psutil
+sounddevice
+
